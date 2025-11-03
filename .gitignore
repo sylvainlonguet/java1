@@ -1,0 +1,82 @@
+# =========================
+# Fichiers compilés / binaires
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# =========================
+# Répertoires de build
+# =========================
+/bin/
+/build/
+/out/
+/target/
+
+# =========================
+# Fichiers temporaires système
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# =========================
+# Fichiers de logs
+# =========================
+*.log
+
+# =========================
+# Fichiers temporaires IDE
+# =========================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# =========================
+# Environnement Java
+# =========================
+# Java crash logs
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Outils divers
+# =========================
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Gradle
+.gradle/
+build/
+
+# =========================
+# Sauvegardes éditeurs
+# =========================
+*~
+*.bak
+*.swp
+*.tmp
