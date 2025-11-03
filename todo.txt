@@ -1,0 +1,37 @@
+1. Ajouter des options dans le menu principal :
+
+« Ajouter un nouveau livre »
+« Supprimer un livre »
+« Ajouter un adhérent »
+« Supprimer un adhérent »
+
+2. Rechercher un livre
+
+Permettre de rechercher un livre par :
+- titre (mot-clé partiel)
+- auteur
+
+3. Empêcher un adhérent d’emprunter plusieurs fois le même livre
+
+Avant de créer un Emprunt, vérifier que l’adhérent ne l’a pas déjà emprunté.
+
+4. Gestion des retards d’emprunt
+
+Objectif : introduire la notion de date et calcul de durée.
+→ Ajouter une date limite (ex. 14 jours).
+→ Une méthode afficherRetards() liste les livres empruntés depuis plus de X jours.
+
+5. Limiter le nombre d’emprunts par adhérent
+
+Objectif : introduire une règle métier.
+haque adhérent ne peut emprunter que 3 livres maximum simultanément.
+
+6. Héritage : spécialiser les types de livres
+
+Créer des sous-classes :
+
+- Roman (avec un genre)
+- Manuel (avec un niveau scolaire)
+- Magazine (avec un numéro de parution)
+
+=> Adapter la méthode toString() pour afficher les infos spécifiques.
