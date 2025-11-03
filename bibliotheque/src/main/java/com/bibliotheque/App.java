@@ -12,7 +12,6 @@ public class App
         Bibliotheque bibliotheque = new Bibliotheque();
         Scanner sc = new Scanner(System.in);
 
-        // Quelques données de départ
         bibliotheque.ajouterLivre(new Livre("1984", "George Orwell"));
         bibliotheque.ajouterLivre(new Livre("Le Petit Prince", "Antoine de Saint-Exupéry"));
         bibliotheque.ajouterAdherent(new Adherent("Dupont", "Alice"));
